@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nac.MicrosoftGraph", "nac.MicrosoftGraph\nac.MicrosoftGraph.csproj", "{A89123DD-0548-4329-85C5-07C7102916F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{E86FAAD7-6E1B-48E2-A068-DC60E8869338}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{A89123DD-0548-4329-85C5-07C7102916F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A89123DD-0548-4329-85C5-07C7102916F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A89123DD-0548-4329-85C5-07C7102916F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E86FAAD7-6E1B-48E2-A068-DC60E8869338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E86FAAD7-6E1B-48E2-A068-DC60E8869338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E86FAAD7-6E1B-48E2-A068-DC60E8869338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E86FAAD7-6E1B-48E2-A068-DC60E8869338}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

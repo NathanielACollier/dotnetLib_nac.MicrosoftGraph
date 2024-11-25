@@ -6,4 +6,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="nac.http" Version="1.0.8" />
+        <PackageReference Include="Microsoft.Graph" Version="5.62.0" />
+    </ItemGroup>
+
 </Project>
