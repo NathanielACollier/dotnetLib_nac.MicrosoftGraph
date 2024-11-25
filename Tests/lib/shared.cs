@@ -11,7 +11,7 @@ public static class shared
         var oauthSettings = nac.OAUTHLogin.repositories.VendorOAUTHSettings.GetMicrosoftOAUTHSettings();
         oauthSettings.ClientId = lib.settings.OAUTH_Microsoft_ClientId;
         oauthSettings.ClientSecret = lib.settings.OAUTH_Microsoft_ClientSecret;
-        
+        oauthSettings.Scope = "User.Read";
         
         // get a token via browser
         string token = await nac.OAUTHLogin.OAUTH.GetAuthTokenViaDefaultBrowser(oauthSettings);
